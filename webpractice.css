@@ -31,9 +31,6 @@ nav a:hover{
 .menu_right{
 	float: right;
 }
-table{
-	text-align: center;
-}
 #container{
 	display: flex; /*chia bo cuc*/
 	flex-wrap: nowrap;
@@ -67,6 +64,9 @@ footer a{
 	color: white;
 }
 
+/*table{
+	text-align: center;
+}
 
 table{
 	border-collapse: collapse;
@@ -92,7 +92,7 @@ table th {
   background-color: dimgray;
   color: white;
 }
-
+*/
 
 
 /*chay tu to qua nho*/
