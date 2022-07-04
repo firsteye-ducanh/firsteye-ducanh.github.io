@@ -127,4 +127,8 @@ table th {
 		padding: 10px;
 		flex: 100%;
 	}
+	*{
+	background-color :red;
+	}
+		
 }
