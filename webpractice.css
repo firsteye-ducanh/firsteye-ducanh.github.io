@@ -113,14 +113,14 @@ table th {
 }*/
 @media(max-width: 500px){
 	#container{
-	display: flex;
-	flex-wrap: wrap;
+		display: flex;
+		flex-wrap: wrap;
 	}
 	#left_side1{
-	margin: 0px;
-	padding: 10px;
-	background-color: #f1f1f1;
-	flex: 100%;
+		margin: 0px;
+		padding: 10px;
+		background-color: #f1f1f1;
+		flex: 100%;
 	}
 	#right_side1{
 		margin: 0px;
@@ -128,7 +128,6 @@ table th {
 		flex: 100%;
 	}
 	*{
-	background-color :red;
+		background-color: red;
 	}
-		
 }
