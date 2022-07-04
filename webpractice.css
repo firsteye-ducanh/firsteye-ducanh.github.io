@@ -113,7 +113,6 @@ table th {
 }*/
 @media(max-width: 500px){
 	#container{
-		display: flex;
 		flex-wrap: wrap;
 	}
 	#left_side1{
@@ -126,8 +125,5 @@ table th {
 		margin: 0px;
 		padding: 10px;
 		flex: 100%;
-	}
-	*{
-		background-color: red;
-	}
+	
 }
