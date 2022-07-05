@@ -44,20 +44,15 @@ nav a:hover{
 }
 
 #left_side1{
-	margin: 0px;
-	padding: 10px;
 	background-color: #f1f1f1;
-	flex: 30%;
+	flex: 40%;
 }
 #right_side1{
-	margin: 0px;
-	padding: 10px;
-	flex: 70%;
+	flex: 60%;
 }
 
 footer{
 	padding: 10px;
-	margin: 0px;
 	text-align: center;
 	background-color: gray;
 	color: white;
@@ -107,7 +102,7 @@ table th {
 		flex: 100%;
 	}
 }
-@media(max-width: 500px){
+@media(max-width: 600px){
 	#container{
 		flex-wrap: wrap;
 	}
@@ -117,7 +112,7 @@ table th {
 	#right_side1{
 		flex: 100%;
 	}
-	* { 
+	* {
 		background-color: red;
 	}
 }
