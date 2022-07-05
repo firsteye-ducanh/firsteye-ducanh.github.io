@@ -3,6 +3,7 @@
 }
 
 #MY_RESUME{
+	padding: 80px;
 	background-color: black;
 	color: white;
 	font-size: xxx-large;
@@ -25,6 +26,7 @@ nav a:hover{
 	background-color: white;
 	color: black;
 }
+
 .menu_left{
 	float: left;
 }
@@ -45,12 +47,12 @@ nav a:hover{
 	margin: 0px;
 	padding: 10px;
 	background-color: #f1f1f1;
-	flex: 30%;
+	flex: 40%;
 }
 #right_side1{
 	margin: 0px;
 	padding: 10px;
-	flex: 70%;
+	flex: 60%;
 }
 
 footer{
@@ -61,7 +63,6 @@ footer{
 	color: white;
 }
 footer a{
-
 	color: white;
 }
 
@@ -94,18 +95,16 @@ table th {
   color: white;
 }
 
-
-
 /*chay tu to qua nho*/
 @media(max-width: 800px){
 	#container{
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 	}
 	#left_side1{
-		flex: 30%;
+		flex: 100%;
 	}
 	#right_side1{
-		flex: 70%;
+		flex: 100%;
 	}
 }
 @media(max-width: 500px){
@@ -118,8 +117,4 @@ table th {
 	#right_side1{
 		flex: 100%;
 	}
-	table {
-		width: 100%;
-	}
-
 }
