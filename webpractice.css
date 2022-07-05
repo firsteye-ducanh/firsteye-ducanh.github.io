@@ -47,12 +47,12 @@ nav a:hover{
 	margin: 0px;
 	padding: 10px;
 	background-color: #f1f1f1;
-	flex: 40%;
+	flex: 50%;
 }
 #right_side1{
 	margin: 0px;
 	padding: 10px;
-	flex: 60%;
+	flex: 50%;
 }
 
 footer{
