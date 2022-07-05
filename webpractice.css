@@ -118,6 +118,6 @@ table th {
 		flex: 100%;
 	}
 	* { 
-		background-color: white;
+		background-color: red;
 	}
 }
