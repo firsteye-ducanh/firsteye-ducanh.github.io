@@ -112,7 +112,4 @@ table th {
 	#right_side1{
 		flex: 100%;
 	}
-	* {
-		background-color: red;
-	}
 }
